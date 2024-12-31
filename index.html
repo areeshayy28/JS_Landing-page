@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Landing Page</title>
+</head>
+<body>
+    <header>
+       <h2> 2<sup>nd</sup> Assignment of JavaScript!</h2>
+    </header>
+
+    <main>
+        <p class="main">Click the buttons below to interact with the page:</p>
+        <div>
+            <p class="btn">Click below to receive a friendly greeting to this page!</p>
+            <button onclick="alert('Welcome to My Landing Page!');">
+                Show Welcome Message
+            </button> 
+
+            <p class="btn">Introduce yourself to unlock a personalized message!</p>
+            <button onclick="var name = prompt('What is your name?'); alert('Hello, ' + name)">
+                Personalized Greeting
+            </button> 
+
+            <p class="btn">Curious about the creator? Discover Who's Behind This Page!</p>
+            <button onclick="var firstName = 'Areesha'; var lastName = 'Zubair'; var hobby = 'Reading';
+             alert('First Name: ' + firstName + '\nLast Name: ' + lastName + '\nFavorite Hobby: ' + hobby);">
+                Creator Information
+            </button> 
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2024 Personalized Landing Page. All Rights Reserved.
+    </footer>
+</body>
+</html>
